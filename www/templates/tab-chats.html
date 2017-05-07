@@ -1,0 +1,9 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chatRoomList" ng-click="goChat(chat.room_code)">
+        {{chat.room_name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
